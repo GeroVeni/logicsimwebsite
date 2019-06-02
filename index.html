@@ -1,0 +1,20 @@
+<h1 style="text-align: center;">Logic Simulator</h1>
+<p style="text-align: left;">The aim of this project is to develop a logic simulation program in Python (Python 3, to be precise). The project involves all five major phases of the software engineering life cycle: specification, design, implementation, testing and maintenance.</p>
+<h2 style="text-align: center;"><a id="user-content-contents" class="anchor" href="https://github.com/GeroVeni/Logic-Simulator#contents" aria-hidden="true"></a>Contents</h2>
+<ul>
+<li>prelim folder: Folder containing the preliminary exercises</li>
+<li>logic-sim folder: Folder containing the main project files</li>
+</ul>
+<h2 style="text-align: center;"><a id="user-content-installation-instructions" class="anchor" href="https://github.com/GeroVeni/Logic-Simulator#installation-instructions" aria-hidden="true"></a>Installation instructions</h2>
+<p>For running the gui on a different machine using Anaconda package manager, run:</p>
+<pre><code>conda install wx
+conda install freeglut
+conda install pyopengl pyopengl-accelerate</code></pre>
+<h2 style="text-align: center;">User Guide</h2>
+<h3>Shortcuts</h3>
+<p>Ctrl + O: Open file<br />Ctrl + H: Help<br />Ctrl + R: Run<br />Ctrl + Shift + C: Continue<br />Ctrl + E: Center canvas<br />Ctrl + L: Clear activity log</p>
+<h3>User Instructions</h3>
+<p>Use the Open file button to select the desired circuit defnition file. If the file contains no errors the activity log at the bottom of the window will read "Succesfully parsed network". If there are errors, the error log will read "Failed to parse network".</p>
+<p>If the network was parsed correctly it can be ran. Use the plus and minus on the cycle selector to select the desired number of cycles for the simulation or type in th desired number. Press the Run button to run the simulator for the number of cycles selected and display the waveforms at the current monitor points (from a cold-startup of the circuit). Press the Continue button to run the simulator for an additional number of cycles as selected in the cycle selector and display the waveforms at the current monitor points.</p>
+<p>The canvas can be restored to its default state of position and zoomby selecting the center button.</p>
+<p>Different monitor points can be set and zapped by first selecting the Monitors tab on the right panel, and then selecting the desired monitor point from the list. Switches can be operated by first selecting the Switches tab on the right panel, and then selecting the desired switch.</p>
